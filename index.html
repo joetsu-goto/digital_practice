@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/F.svg" type="image/svg+xml">
+
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'svf1ifx',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+</head>
+    <div class="wrapper">
+        <div class="under_arrow"></div>
+        <div class="title">FlexBox</div>
+        <div class="subtitle">
+           <p>With marketing services that exceed expectations<br>
+            Passing customers' thoughts to customers beyond</p> 
+        </div>
+        <p class="p1">justify-content: center;</p>
+        <div class="f-container">
+            <div class="f-item color2">1</div>
+            <div class="f-item color6">2</div>
+        </div>
+        <p class="p1">justify-content: space-around;</p>
+        <div class="f-container2">
+            <div class="f-item color2">1</div>
+            <div class="f-item color6">2</div>
+        </div>
+        <p class="p1">justify-content: space-between;</p>
+        <div class="f-container3">
+            <div class="f-item color2">1</div>
+            <div class="f-item color6">2</div>
+        </div>
+        <p class="p1">justify-content: <flex-start></flex-start>;</p>
+        <div class="f-container4">
+            <div class="f-item color2">1</div>
+            <div class="f-item color6">2</div>
+        </div>
+        <p class="p1">justify-content: flex-end;</p>
+        <div class="f-container5">
+            <div class="f-item color2">1</div>
+            <div class="f-item color6">2</div>
+        </div>
+        <p class="p2">justify-content: center + flex-wrap: wrap</p>
+        <div class="f-container6">
+            <div class="f-item2 color1">1</div>
+            <div class="f-item2 color2">2</div>
+            <div class="f-item2 color3">3</div>
+            <div class="f-item2 color4">4</div>
+            <div class="f-item2 color5">5</div>
+        </div>
+        <p class="p1">justify-content: center + flex-wrap: wrap + order</p>
+        <div class="f-container7">
+            <div class="f-item2 color1 order1">1</div>
+            <div class="f-item2 color2 order2">2</div>
+            <div class="f-item2 color3 order3">3</div>
+            <div class="f-item2 color4 order4">4</div>
+            <div class="f-item2 color5 order5">5</div>
+        </div> 
+        <div class="flex_p">
+            <p>flex-direction: column;</p>
+            <p>flex-direction: column-reverse;</p>
+        </div>
+        <div class="f-container8">
+            
+            <div class="column">
+                <div class="f-item2 color3">1</div>
+                <div class="f-item2 color2">2</div>
+                <div class="f-item2 color4">3</div>
+            </div>
+            
+            <div class="column-reverse">
+                <div class="f-item2 color3">1</div>
+                <div class="f-item2 color2">2</div>
+                <div class="f-item2 color4">3</div>
+            </div>
+        </div> 
+    
+    <div class="extra">
+        <p>Travel Tips<br><span>豆知識</span></p>
+        <p class="txt">子要素が一つの場合 display:flex を親要素に使用すると、、</p>
+        <div class="f-container9">
+            <div class="f-item color5">10</div>
+        </div>
+        <p class="txt">display: flex;とjustify-content: centerとalign-items: centerで<br>
+        親要素の幅と高さから上下左右を中央にすることが可能です。</p>
+    </div>
+    <p class="musubi"><span>Thank you</span><br>皆さんも是非使用してみてください！！</p>
+
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
